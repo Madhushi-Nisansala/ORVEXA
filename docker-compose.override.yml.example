@@ -1,0 +1,6 @@
+# Optional local overrides. Copy to docker-compose.override.yml when needed.
+# Never commit credentials or production settings here.
+services:
+  backend:
+	environment:
+	  LOG_LEVEL: DEBUG

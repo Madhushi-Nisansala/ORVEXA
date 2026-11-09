@@ -1,0 +1,40 @@
+# Build and IDE artifacts
+.vs/
+**/bin/
+**/obj/
+.dart_tool/
+**/.dart_tool/
+**/build/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Database exports and local operational data
+*.sql
+*.dump
+*.backup
+*.bak
+*.sqlite
+*.sqlite3
+backups/
+tmp/
+temp/
+*.log
+
+# Flutter generated files
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# OS files
+.DS_Store
+Thumbs.db
